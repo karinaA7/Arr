@@ -109,4 +109,4 @@ int main() {
     printf("Null rows with 0 size - (true): %s\n", arrays_match_bidirectional(A13, zero_sizes2, 1, A14, zero_sizes2, 1) ? "true" : "false"); // true
 
     return 0;
-}
+} 
