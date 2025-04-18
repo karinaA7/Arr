@@ -104,3 +104,4 @@ bool arrays_match_bidirectional(int** A1, int* sizes1, int rows1, int** A2, int*
     return arrays_match(A1, sizes1, rows1, A2, sizes2, rows2) && 
            arrays_match(A2, sizes2, rows2, A1, sizes1, rows1);
 }
+ 
