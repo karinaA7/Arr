@@ -3,7 +3,7 @@ CFLAGC = -Wall -Wextra
 RM = rm -f
 TARGET = arr
 
-SRC = new.c newmain.c
+SRC = new.c main.c
 OBJ = $(SRC:.c=.o)
 
 %.o: %.c
